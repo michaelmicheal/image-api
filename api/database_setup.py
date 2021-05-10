@@ -1,7 +1,8 @@
 from os import listdir
-from pg_manager import PGManager
+from api.pg_manager import PGManager
 
 FUNCTIONS_PATH = "sql/functions"
+
 
 with PGManager() as pgm:
 
